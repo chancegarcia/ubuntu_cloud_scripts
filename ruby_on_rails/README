@@ -1,0 +1,6 @@
+1) run setup_ror_dependencies.sh
+2) install gem via setup_gem.sh
+3) install mysql if needed
+4) run setup_ror_gem_installs.sh
+5) run setup_ror_passenger.sh for running RoR on apache
+6) follow instrustions at end of passenger setup to complete
