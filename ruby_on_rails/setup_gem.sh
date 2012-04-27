@@ -4,6 +4,8 @@ wget http://rubyforge.org/frs/download.php/76011/rubygems-1.8.22.tgz
 tar -xvzf rubygems-1.8.22.tgz
 cd rubygems-1.8.22/
 ruby setup.rb
+
+# may need to do the follow parts separately from script
 sudo su
 export REALLY_GEM_UPDATE_SYSTEM=true
 gem1.9.1 update --system
