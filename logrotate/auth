@@ -1,0 +1,10 @@
+/var/log/auth.log {
+        daily
+        rotate 36500000
+        size 100k
+        compress
+        delaycompress
+        notifempty
+        create 640 syslog adm
+        olddir /var/log/auth_archive
+}
