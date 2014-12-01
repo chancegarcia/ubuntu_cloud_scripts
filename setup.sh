@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# use rackspace packaging mirror
-echo 'deb http://mirror.rackspace.com/ubuntu/ oneiric main restricted universe
-deb http://mirror.rackspace.com/ubuntu/ oneiric-updates main restricted universe
-deb http://mirror.rackspace.com/ubuntu/ oneiric-security main restricted universe' > /etc/apt/sources.list
 apt-get update
 
 # install omitted packages
