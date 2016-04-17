@@ -17,3 +17,4 @@ ufw allow OpenSSH
 ufw allow from 127.0.0.1
 # allow web
 ufw allow 80/tcp
+ufw allow 443/tcp
